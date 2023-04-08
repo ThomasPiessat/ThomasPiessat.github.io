@@ -1,0 +1,1 @@
+import{_ as s,c as e,o as a,N as t}from"./chunks/framework.0799945b.js";const C=JSON.parse('{"title":"Sync your files :","description":"","frontmatter":{},"headers":[],"relativePath":"perforce.md"}'),o={name:"perforce.md"},n=t("",14),l=[n];function p(c,r,i,h,d,y){return a(),e("div",null,l)}const g=s(o,[["render",p]]);export{C as __pageData,g as default};
