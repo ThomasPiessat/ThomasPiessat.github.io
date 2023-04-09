@@ -13,6 +13,13 @@ export default {
       ],
       sidebar: [
         {
+          text: "VS",
+          collapsible: true,
+          items: [
+            { text: "Visual Studio", link: "/vs" },
+          ],
+        },
+        {
           text: "UnrealEngine",
           collapsible: true,
           items: [
@@ -41,7 +48,7 @@ export default {
           collapsible: true,
           items: [
             { text: "Docker", link: "/docker" },
-            { text: "Git", link: "/getting-started" },
+            { text: "Dotnet", link: "/dotnet" },
           ],
         },
         {
