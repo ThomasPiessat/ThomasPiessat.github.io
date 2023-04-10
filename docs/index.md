@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: Notebook
-  text: Static docs template built with VitePress.
+  text: Some useful notes.
   actions:
     - theme: brand
       text: About me
@@ -13,5 +13,5 @@ hero:
       link: /unrealengine
     - theme: alt
       text: 📌 Unity
-      link: /unrealengine
+      link: /unity/
 ---
