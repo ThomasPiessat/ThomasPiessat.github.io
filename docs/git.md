@@ -32,3 +32,29 @@ git checkout _commit_hash_
 ```sh
 git branch -d _branch-name_
 ```
+# Initializing a Git repository
+## Open Git Bash.
+## Navigate to the root directory of your project.
+## Initialize the local directory as a Git repository
+## If you’re using Git 2.28.0 or a later version
+```sh
+git init -b main
+```
+## Add the files in your new local repository. This stages them for the first commit.
+```sh
+git add .
+```
+## Commit the files that you've staged in your local repository.
+```sh
+git commit -m "First commit"
+```
+# Adding a local repository to GitHub using Git
+## Create a new repository on GitHub.com
+## In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+```sh
+git remote add origin <REMOTE_URL>
+```
+## Push the changes in your local repository to GitHub.com.
+```sh
+git push origin main
+```
