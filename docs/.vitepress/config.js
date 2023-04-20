@@ -1,11 +1,13 @@
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig ({
+    title: "NoteBook",
+    base: '/vitePressNoteBook/',
+    lastUpdated: true,
     themeConfig: {
-      logo: "/logo.svg",
-      siteTitle: "NoteBook",
-    },
-  };
-  module.exports = {
-    themeConfig: {
+      search: {
+        provider: 'local'
+      },
       nav: [
         { text: 'Home', link: '/' },
         { text: "About", link: "/about" },
@@ -61,5 +63,5 @@ export default {
         },
       ],
         }
-      }
+        });
     

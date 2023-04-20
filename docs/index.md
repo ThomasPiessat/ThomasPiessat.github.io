@@ -14,5 +14,8 @@ hero:
     - theme: alt
       text: 📌 Unity
       link: /unity/Unity
+    - theme: alt
+      text: 📌 Git
+      link: /git
 ---
 
