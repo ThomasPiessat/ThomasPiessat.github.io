@@ -24,7 +24,7 @@ p4 resolve -ay
 ```
 # Submit the changes :
 ::: warning
-## Be sure to not have this character " ' " into a changelist description
+Be sure to not have this character " ' " into a changelist description
 :::
 ```sh
 p4 submit
