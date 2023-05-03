@@ -12,6 +12,9 @@ export default defineConfig ({
         { text: 'Home', link: '/' },
         { text: "About", link: "/about" },
       ],
+      socialLinks: [
+        { icon: "github", link: "https://github.com/ThomasPiessat" },
+      ],
       sidebar: [
         {
           text: "VS",
