@@ -27,8 +27,8 @@ export default defineConfig ({
           text: "UnrealEngine",
           collapsible: true,
           items: [
-            { text: "UE4", link: "/UE4/UE4" },
-            { text: "UE5", link: "/UE5/UE5" },
+            { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
+            { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
           ],
         },
         {
