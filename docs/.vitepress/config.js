@@ -17,6 +17,13 @@ export default defineConfig ({
       ],
       sidebar: [
         {
+          text: "GeneralProg",
+          collapsible: true,
+          items: [
+            { text: "GeneralProg", link: "/generalProg/generalProg" },
+          ],
+        },
+        {
           text: "VS",
           collapsible: true,
           items: [

@@ -9,6 +9,9 @@ hero:
       text: About me
       link: /get-started
     - theme: alt
+      text: 📌 General Prog
+      link: /generalProg/generalProg
+    - theme: alt
       text: 📌 Uneral Engine
       link: /UnrealEngine/unrealengine
     - theme: alt
