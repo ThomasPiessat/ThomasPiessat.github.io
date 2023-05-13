@@ -27,7 +27,7 @@ export default defineConfig ({
           text: "VS",
           collapsible: true,
           items: [
-            { text: "Visual Studio", link: "/vs" },
+            { text: "Visual Studio", link: "/visualStudio/visualStudio" },
           ],
         },
         {
