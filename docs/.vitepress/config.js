@@ -18,21 +18,21 @@ export default defineConfig ({
       sidebar: [
         {
           text: "GeneralProg",
-          collapsible: true,
+          collapsed: false,
           items: [
             { text: "GeneralProg", link: "/generalProg/generalProg" },
           ],
         },
         {
           text: "VS",
-          collapsible: true,
+          collapsed: false,
           items: [
             { text: "Visual Studio", link: "/visualStudio/visualStudio" },
           ],
         },
         {
           text: "UnrealEngine",
-          collapsible: true,
+          collapsed: false,
           items: [
             { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
             { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
@@ -40,14 +40,14 @@ export default defineConfig ({
         },
         {
           text: "Unity",
-          collapsible: false,
+          collapsed: false,
           items: [
             { text: "Unity", link: "/unity/Unity" },
           ],
         },
         {
           text: "Versionning",
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: "Perforce", link: "/perforce" },
             { text: "Git", link: "/git" },
@@ -55,7 +55,7 @@ export default defineConfig ({
         },
         {
           text: "IT",
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: "Docker", link: "/docker" },
             { text: "Dotnet", link: "/dotnet" },
@@ -63,7 +63,7 @@ export default defineConfig ({
         },
         {
           text: "Domotic",
-          collapsible: true,
+          collapsed: true,
           items: [
             { text: "ESP32", link: "/esp" },
             { text: "Pi4", link: "/pi4" },
