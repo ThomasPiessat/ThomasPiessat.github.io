@@ -24,7 +24,7 @@ bEnablePIXProfiling
 - Add automated profiling/capture recording (PIX, playstation profiling)
 
 ## Explore Profiling
-    Explore the scene with visual Viewports, show commands (for ex to only see LODs of a certain level), stats on screen
+- Explore the scene with visual Viewports, show commands (for ex to only see LODs of a certain level), stats on screen
 
 ## Bottleneck Investigation
 
