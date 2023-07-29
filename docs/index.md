@@ -1,24 +1,38 @@
 ---
 layout: home
-
+title: home
 hero:
-  name: Notebook
-  text: Some useful notes.
   actions:
-    - theme: brand
-      text: About me
-      link: /get-started
-    - theme: alt
-      text: 📌 General Prog
-      link: /generalProg/generalProg
-    - theme: alt
-      text: 📌 Uneral Engine
-      link: /UnrealEngine/unrealengine
-    - theme: alt
-      text: 📌 Unity
-      link: /unity/Unity
-    - theme: alt
-      text: 📌 Git
-      link: /git
+    # - theme: brand
+    #   text: About me
+    #   link: /get-started
+    # - theme: alt
+    #   text: 📌 General Prog
+    #   link: /generalProg/generalProg
+    # - theme: alt
+    #   text: 📌 Uneral Engine
+    #   link: /UnrealEngine/unrealengine
+    # - theme: alt
+    #   text: 📌 Unity
+    #   link: /unity/Unity
+    # - theme: alt
+    #   text: 📌 Git
+    #   link: /git
+features:
+  - icon: 📝
+    title: About me
+    details: More about me
+    link: 
+  - icon: 🚀
+    title: General Prog
+    details: Mandatory notes
+    link: /generalProg/generalProg
+  - icon: 🚀
+    title: Git
+    details: Usefull commands for Git
+    link: /git
+  - icon: 🚀
+    title: TODO
+    details: LOREM ipsum...
 ---
 

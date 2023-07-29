@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig ({
-    title: "NoteBook",
+    title: "Thomas Piessat",
     // base: '/vitePressNoteBook/',
     lastUpdated: true,
     themeConfig: {
@@ -14,6 +14,7 @@ export default defineConfig ({
       ],
       socialLinks: [
         { icon: "github", link: "https://github.com/ThomasPiessat" },
+        { icon: "linkedin", link: "https://www.linkedin.com/in/thomas-piessat/" },
       ],
       sidebar: [
         {
