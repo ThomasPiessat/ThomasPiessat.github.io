@@ -37,6 +37,7 @@ const { Layout } = DefaultTheme
   text-align: center;
 }
 .title {
+  color : #646cff;
   display: flex;
   align-items: center;
   font-size: 2.2em;
