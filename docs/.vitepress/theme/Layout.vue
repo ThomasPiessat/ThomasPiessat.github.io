@@ -14,14 +14,14 @@ const { Layout } = DefaultTheme
         <p class="description">
           Working for Black Shamrock <i>- a Virtuos Studio</i> 
         </p>
-        <!-- <nav class="button">
+        <nav class="button">
         <div class="button-container">
           <ul class="button-menu">
             <li class="button-item"><a href="#">About Me</a></li>
-            <li class="button-item"><a href="#">NoteBook</a></li>
+            <li class="button-item"><a href="/generalProg/generalProg">NoteBook</a></li>
           </ul>
         </div>
-       </nav> -->
+       </nav>
   </div>
     </template>
   </Layout>
