@@ -1,5 +1,7 @@
 # Procedural City Generation
 
+<img src="/img/UE/UE5/ProceduralCityGeneration/Overview.png" alt="Overview"> 
+
 ## Overview
 In this article, we will explore the runtime city generation based on a random-shaped spline and a city generated alongside a road.
 
@@ -12,6 +14,9 @@ We want to choose the density of buildings type we want, so we had a _DensityFil
 We also don't want our building to overlap between each other so we had a _SelfPruning_ node.
 You can obviously add some mesh or scalable material to your building.
 
+<img src="/img/UE/UE5/ProceduralCityGeneration/CityGeneration.png" alt="CityGeneration"> 
+<img src="/img/UE/UE5/ProceduralCityGeneration/PCG_SplineCity.png" alt="PCG_SplineCity"> 
+
 ## City Alongside the Road Generation
 We have building alongside the road.
 Our city spline need to know which spline it gonna follow, so we need to define the road as spline to follow.
@@ -22,6 +27,9 @@ We add _ExtendModifier_ node decrease or increase the distance between each buil
 And we want to have some nice meshes alongside this road.
 (Be carefull depending on the size of your mesh we will have to update transform point in order that your building mesh will not
 overlap).
+
+<img src="/img/UE/UE5/ProceduralCityGeneration/CityAlongsideRoad.png" alt="CityAlongsideRoad"> 
+<img src="/img/UE/UE5/ProceduralCityGeneration/RoadCity.png" alt="RoadCity"> 
 
 ## Conclusion
 The goal is to create a city in a defined area and alongside the road and make sure that buildings form the city don't overlap between
