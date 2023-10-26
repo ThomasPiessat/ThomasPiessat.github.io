@@ -1,6 +1,8 @@
 # Generate Project File
 
+::: danger UPDATE FILE
 Update the project path and the engine path
+:::
 
 ```sh
 @echo off
