@@ -17,7 +17,7 @@ const { Layout } = DefaultTheme
         <nav class="button">
         <div class="button-container">
           <ul class="button-menu">
-            <li class="button-item"><a href="#">About Me</a></li>
+            <li class="button-item"><a href="AboutMe">About Me</a></li>
             <li class="button-item"><a href="/generalProg/generalProg">NoteBook</a></li>
           </ul>
         </div>
