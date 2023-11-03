@@ -22,7 +22,7 @@ features:
   - icon: 📝
     title: About me
     details: More about me
-    link: 
+    link: /aboutMe
   - icon: 🚀
     title: General Prog
     details: Mandatory notes
