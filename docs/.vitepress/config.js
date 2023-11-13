@@ -50,7 +50,7 @@ export default defineConfig ({
           text: "Versionning",
           collapsed: true,
           items: [
-            { text: "Perforce", link: "/perforce" },
+            { text: "Perforce", link: "/perforce/perforce" },
             { text: "Git", link: "/git" },
           ],
         },
