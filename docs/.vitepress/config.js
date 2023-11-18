@@ -71,6 +71,14 @@ export default defineConfig ({
             { text: "WLED", link: "/wled" },
           ],
         },
+        {
+          text: "Web",
+          collapsed: true,
+          items: [
+            { text: "Vue", link: "/web/vue" },
+            { text: "React", link: "/web/react" },
+          ],
+        },
       ],
         }
         });
