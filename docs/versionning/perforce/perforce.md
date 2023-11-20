@@ -9,8 +9,8 @@ next:
 
 ## Perforce
 
-- [Perforce Shortcut](/perforce/perforceShortcut)
+- [Perforce Shortcut](/versionning/perforce/perforceShortcut)
 
-- [Perforce Documentation](/perforce/perforceDoc)
+- [Perforce Documentation](/versionning/perforce/perforceDoc)
 
-- [Perforce Custom Tools](/perforce/perforceCustomTools)
+- [Perforce Custom Tools](/versionning/perforce/perforceCustomTools)
