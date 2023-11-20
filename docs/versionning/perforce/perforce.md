@@ -4,7 +4,7 @@ prev:
   link: '/versionning/versionning'
 next:
   text: 'Git'
-  link: '/git'
+  link: '/versionning/git'
 ---
 
 ## Perforce
