@@ -6,7 +6,6 @@ next:
   text: 'Git'
   link: '/versionning/git'
 ---
-
 ## Perforce
 
 - [Perforce Shortcut](/versionning/perforce/perforceShortcut)
