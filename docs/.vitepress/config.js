@@ -10,7 +10,7 @@ export default defineConfig ({
       },
       nav: [
         { text: 'Home', link: '/' },
-        { text: "About", link: "/about" },
+        { text: "About", link: "/AboutMe" },
       ],
       socialLinks: [
         { icon: "github", link: "https://github.com/ThomasPiessat" },
