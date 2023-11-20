@@ -1,3 +1,9 @@
+---
+prev:
+  text: 'VisualStudio'
+  link: '/visualStudio/visualStudio'
+---
+
 ## Find in the solution explorer where is the current open file
 ```ps1
 CTRL + ) + S
