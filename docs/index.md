@@ -19,10 +19,6 @@ hero:
     #   text: 📌 Git
     #   link: /git
 features:
-  - icon: 📝
-    title: About me
-    details: More about me
-    link: /aboutMe
   - icon: 🚀
     title: General Prog
     details: Mandatory notes
@@ -35,5 +31,9 @@ features:
     title: Undreal Engine
     details: Documention/Tips Unreal
     link: /UnrealEngine/unrealengine
+  - icon: 📝
+    title: IT
+    details: Documentation  NPM/Docker/Dotnet
+    link: "/it/it"
 ---
 
