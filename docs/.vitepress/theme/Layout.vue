@@ -18,7 +18,7 @@ const { Layout } = DefaultTheme
         <div class="button-container">
           <ul class="button-menu">
             <li class="button-item"><a href="AboutMe">About Me</a></li>
-            <li class="button-item"><a href="/generalProg/generalProg">NoteBook</a></li>
+            <li class="button-item"><a href="/it/it">IT</a></li>
           </ul>
         </div>
        </nav>
@@ -46,8 +46,8 @@ const { Layout } = DefaultTheme
 .description {
   margin: 1em 0;
 }
-
 .button-item {
+
   margin-left: 20px;
 }
 
@@ -61,18 +61,16 @@ const { Layout } = DefaultTheme
       padding: 16px 32px;
       font-size: 16px;
       color: #fff;
-      background-color: #4CAF50;
-      border: none;
+      background-color: #272827;
+      border: 1px solid #ccc;
       border-radius: 8px;
       cursor: pointer;
       transition: background-color 0.3s ease;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 .button-item:hover {
-      background-color: #646cff;
+  border-color: #646cff;
     }
-.button-item:active {
-      background-color: #646cff;
-    }
+    
 </style>
 
