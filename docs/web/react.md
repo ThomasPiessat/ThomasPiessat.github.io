@@ -29,3 +29,7 @@ Create a new component file. You can do this manually or by using the terminal. 
 ```bash
 touch src/MyComponent.js
 ```
+
+## React/JSX Style Guide
+
+https://github.com/airbnb/javascript/tree/master/react 
