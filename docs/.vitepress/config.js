@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig ({
     title: "Thomas Piessat",
-    // base: '/vitePressNoteBook/',
+    base: '/vitePressNoteBook/',
     lastUpdated: true,
     themeConfig: {
       search: {
@@ -35,6 +35,7 @@ export default defineConfig ({
           text: "UnrealEngine",
           collapsed: false,
           items: [
+            { text: "Global", link: "/UnrealEngine/global/global" },
             { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
             { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
           ],
