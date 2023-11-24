@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig ({
     title: "Thomas Piessat",
-    base: '/vitePressNoteBook/',
+    //base: '/vitePressNoteBook/',
     lastUpdated: true,
     themeConfig: {
       search: {
