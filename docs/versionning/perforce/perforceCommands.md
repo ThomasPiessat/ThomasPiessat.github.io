@@ -1,3 +1,9 @@
+---
+prev:
+  text: 'Perforce'
+  link: '/perforce/perforce'
+---
+# Some usefull Perforce commands
 ## Sync your files :
 ```sh
 p4 sync
