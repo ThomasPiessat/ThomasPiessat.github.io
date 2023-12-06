@@ -1,3 +1,7 @@
+## React/JSX Style Guide
+
+https://github.com/airbnb/javascript/tree/master/react 
+
 ## Install Create React App:
 
 Open a terminal and run the following command to install Create React App globally:
@@ -30,6 +34,14 @@ Create a new component file. You can do this manually or by using the terminal. 
 touch src/MyComponent.js
 ```
 
-## React/JSX Style Guide
+## Rooting react
 
-https://github.com/airbnb/javascript/tree/master/react 
+```bash
+npm install react-router-dom
+```
+
+## Smooth scrolling effect
+
+```bash
+npm install react-scroll
+```
