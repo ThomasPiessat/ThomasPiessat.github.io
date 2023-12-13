@@ -33,19 +33,3 @@ Create a new component file. You can do this manually or by using the terminal. 
 ```bash
 touch src/MyComponent.js
 ```
-
-## Rooting react
-
-```bash
-npm install react-router-dom
-```
-
-## Smooth scrolling effect
-
-```bash
-npm install react-scroll
-```
-
-`const` is a signal that the variable won’t be reassigned.
-
-`let` is a signal that the variable may be reassigned
