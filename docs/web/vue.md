@@ -2,6 +2,9 @@
 prev:
   text: 'Web'
   link: '/web/web'
+next:
+  text: 'React'
+  link: '/react/react'
 ---
 ## VitePress
 

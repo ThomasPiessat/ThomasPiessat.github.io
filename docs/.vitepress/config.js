@@ -78,7 +78,7 @@ export default defineConfig ({
           collapsed: true,
           items: [
             { text: "Vue", link: "/web/vue" },
-            { text: "React", link: "/web/react" },
+            { text: "React", link: "/web/react/react" },
           ],
         },
       ],
