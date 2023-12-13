@@ -1,3 +1,8 @@
+---
+prev:
+  text: 'Global'
+  link: '/UnrealEngine/global/global'
+---
 ## Usefull Key words
 ### Pawns
 - Game avatars (not necessarily humanoid) inherited from the Actor. Managed by a player or an AI.

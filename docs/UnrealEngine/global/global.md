@@ -1,5 +1,11 @@
+---
+prev:
+  text: 'UnrealEngine'
+  link: '/UnrealEngine/unrealEngine'
+---
 # Global
-- [General](/UnrealEngine/global/general)
-- [GenerateProjectFile](/UnrealEngine/global/generateProjectFile)
-- [PrintDebug](/UnrealEngine/global/printDebug)
-- [LNK2019](/UnrealEngine/global/lnk2019)
+- 📄 [General](/UnrealEngine/global/general)
+- 📄 [GenerateProjectFile](/UnrealEngine/global/generateProjectFile)
+- 📄 [Template Class](/UnrealEngine/global/templateClass)
+- 📄 [PrintDebug](/UnrealEngine/global/printDebug)
+- 📄 [LNK2019](/UnrealEngine/global/lnk2019)
