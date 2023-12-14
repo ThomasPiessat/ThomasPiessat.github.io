@@ -1,12 +1,3 @@
-# Generate Project File
-
-[Download GenerateFiles.bat](/downloads/GenerateFiles.bat)
-
-::: danger UPDATE FILE
-Update the project path and the engine path
-:::
-
-```sh
 @echo off
 SET ProjectPath=D:\UE5_Projects\Sandbox
 
@@ -38,4 +29,3 @@ echo Project cleanup complete!
 
 D:/UE_Engines/UE_5.1/Engine/Binaries/DotNET/AutomationTool/UnrealBuildTool.exe -projectfiles -project="D:\UE5_Projects\Sandbox\Sandbox.uproject" -game -engine
 pause
-```
