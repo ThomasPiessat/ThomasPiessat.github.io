@@ -10,7 +10,7 @@ int &i, &j;
 ```
 
 ## Example
-```c++
+```cpp
 // references.cpp
 #include <stdio.h>
 struct S {
@@ -32,7 +32,7 @@ int main() {
 ```
 
 ### Output
-```c++
+```cpp
 3
 3
 4

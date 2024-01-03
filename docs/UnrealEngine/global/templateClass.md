@@ -1,8 +1,7 @@
 ## Template Class
 
-```c++
-.h
-	
+```cpp
+//.h
 #pragma region COMPONENTS
 
 protected:
@@ -24,8 +23,8 @@ protected:
 		void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 ```
 
-```c++
-.cpp
+```cpp
+//.cpp
 #include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/BoxComponent.h"
