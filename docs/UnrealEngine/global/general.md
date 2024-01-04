@@ -20,7 +20,7 @@ controls the Pawns representing the game characters (NPC).
 - Contains information about the status of the player or bot (nickname, health, etc.).
 
 ## Find object by type
-```c++
+```cpp
 for (TObjectIterator<UMyObject> It; It; ++It)
 {
     UMyObject* myObject = *It;
@@ -29,7 +29,7 @@ for (TObjectIterator<UMyObject> It; It; ++It)
 ```
 
 ## Clone Actor
-```c++
+```cpp
 AMyActor* CreateCloneOfMyActor(AMyActor* ExistingActor, FVector SpawnLocation, FRotator SpawnRotation)
 {
     UWorld* world = ExistingActor->GetWorld();
@@ -40,20 +40,20 @@ AMyActor* CreateCloneOfMyActor(AMyActor* ExistingActor, FVector SpawnLocation, F
 ```
 
 ## Destroy object
-```c++
+```cpp
 MyActor->Destroy(); // Destroy instantly
 MyActor->SetLifeSpan(1); // Destroy with 1 sec of delay
 ```
 
 ## Activation
-```c++
+```cpp
 MyActor->SetActorHiddenInGame(true);    // Hide visible components
 MyActor->SetActorEnableCollision(false);    // Unable components collision
 MyActor->SetActorTickEnabled(false);    // Unable tick
 ```
 
 ## Actor tags
-```c++
+```cpp
 MyActor.Tags.AddUnique(TEXT("MyTag"));
 // Check if an actor get this tag
 if (MyActor->ActorHasTag(FName(TEXT("MyTag"))));

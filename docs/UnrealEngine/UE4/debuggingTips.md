@@ -20,7 +20,7 @@ r.VSync = 0
 https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/DynamicResolution/
 Dynamic Resolution adjusts the primary screen percentage according to the previous frames' GPU workload. The resolution adjusts (as needed) based on a heuristic, for example, when there are too many objects on the screen, or if there is an expensive effect that suddenly enters the frame. The GPU rendering time will increase, and the resolution of the screen will be lowered to maintain the targeted frame rate.
 At Runtime
-```c++
+```cpp
 GEngine->GetDynamicResolutionStatus()->SetEnabled(true);
 ```
 Controlling Dynamic Resolution With Operation Mode
