@@ -4,7 +4,7 @@ A reference, like a pointer, stores the address of an object that is located els
 
 Multiple declarators and initializers may appear in a comma-separated list following a single declaration specifier. For example:
 
-```c++
+```cpp
 int &i;
 int &i, &j;
 ```
