@@ -10,3 +10,4 @@ prev:
 - 📄 [PrintDebug](/UnrealEngine/global/printDebug)
 - 📄 [LNK2019](/UnrealEngine/global/lnk2019)
 - 📄 [No Symbols have been loaded](/UnrealEngine/global/noSymbolsLoaded)
+- 📄 [Soft and Weak pointers](/UnrealEngine/global/ueptr)
