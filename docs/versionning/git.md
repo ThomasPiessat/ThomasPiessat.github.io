@@ -32,7 +32,28 @@ git checkout _commit_hash_
 ```sh
 git branch -d _branch-name_
 ```
-
+##
+# Config
+## List/see all configuration
+```sh
+git config --list
+```
+## Check user name
+```sh
+git config user.name
+```
+## Set user name
+```sh
+git config user.name "your_name"
+```
+## Check your email
+```sh
+git config user.email
+```
+## Set/change your email
+```sh
+git config user.email "your@email.com"
+```
 # Initializing a Git repository
 ## Init project on main branch :
 Navigate to the root directory of your project.
