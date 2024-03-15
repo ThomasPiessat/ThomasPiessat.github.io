@@ -86,6 +86,16 @@ If you want to Zip your release
   run: echo "::set-output name=version::$(Get-Date -Format 'yyyy.MM.dd.HHmmss')"
 ```
 
+### Requiring successful dependent jobs
+```sh
+jobs:
+  job1:
+  job2:
+    needs: job1
+  job3:
+    needs: [job1, job2]
+```
+
 ## Final Build Script
 ```sh
 name: Build WPF Application and Release
@@ -134,7 +144,7 @@ jobs:
         id: create_release
         uses: actions/create-release@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.DEV_TOOL_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEV_TOOL_TOKEN }} # this is a custom token
         with:
           tag_name: ${{ steps.get_version.outputs.version }}
           release_name: Release ${{ steps.get_version.outputs.version }}
@@ -145,7 +155,7 @@ jobs:
         uses: AButler/upload-release-assets@v3.0
         with:
          files: ./Draft.zip
-         repo-token: ${{ secrets.DEV_TOOL_TOKEN }}
+         repo-token: ${{ secrets.DEV_TOOL_TOKEN }} # this is a custom token
          release-tag: ${{ steps.get_version.outputs.version }}
 ```
 
@@ -167,3 +177,12 @@ permissions:
 ```
 
 3- Use a Personal Access Token 
+Navigate to the settings of our repository
+<img src="/img/IT/GitHubActions/secretToken.png" alt="Secret Token"> 
+
+Add a new secret so we can store the authentication token
+<img src="/img/IT/GitHubActions/saveRepoSecret.png" alt="Save Repo Secret"> 
+
+Click Add secret
+Et voila, Settings > Secrets > Actions will now list your recently added secret token
+<img src="/img/IT/GitHubActions/addSecret.png" alt="Add Secret">
