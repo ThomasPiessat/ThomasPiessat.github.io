@@ -27,3 +27,9 @@ dotnet build --source c:\packages\mypackages
 ```sh	
 dotnet build -p:Version=1.2.3.4		
 ```
+
+# Create a solution file
+The following example creates a .sln file in the current folder, with the specified file name:
+```sh	
+dotnet new sln --name MySolution	
+```
