@@ -6,3 +6,4 @@
 - 📄 [Pointers](/generalProg/pointers)
 - 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
 - 📄 [Virtual Memory](/generalProg/virtualMemory)
+- 📄 [Using Attributes in C++](/generalProg/usingAttributes)
