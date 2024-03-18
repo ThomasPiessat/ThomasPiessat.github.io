@@ -4,3 +4,4 @@
 - 📄 [Reference](/generalProg/reference)
 - 📄 [C++LanguageStandard](/generalProg/languageStandard)
 - 📄 [Pointers](/generalProg/pointers)
+- 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
