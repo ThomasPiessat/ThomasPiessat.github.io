@@ -5,3 +5,4 @@
 - 📄 [C++LanguageStandard](/generalProg/languageStandard)
 - 📄 [Pointers](/generalProg/pointers)
 - 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
+- 📄 [Virtual Memory](/generalProg/virtualMemory)
