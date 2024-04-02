@@ -7,4 +7,5 @@
 - 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
 - 📄 [Virtual Memory](/generalProg/virtualMemory)
 - 📄 [Using Attributes in C++](/generalProg/usingAttributes)
-- 📄 [Complex Logging and Debugging in C++](/generalProg/loggingDebugging) 
+- 📄 [Complex Logging and Debugging in C++](/generalProg/loggingDebugging)
+- 📄 [Atomics in C++](/generalProg/atomics) 
