@@ -40,6 +40,17 @@ git checkout _commit_hash_
 git branch -d _branch-name_
 ```
 
+## Rename a local Git branch : 
+Select the Git branch you want to rename
+```sh
+git checkout old-name
+```
+
+Now perform the actual rename for the local Git branch. 
+```sh 
+git branch -m new-name”.
+```
+
 ##
 # Config
 ## List/see all configuration :
