@@ -15,10 +15,12 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Compile and run dev
 ```
-npm run lint
+npm run docs::dev
 ```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+Just use it as a big note book
