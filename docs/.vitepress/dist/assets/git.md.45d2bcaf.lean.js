@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as e,N as n}from"./chunks/framework.0799945b.js";const y=JSON.parse('{"title":"Clone via HTTPS :","description":"","frontmatter":{},"headers":[],"relativePath":"git.md"}'),o={name:"git.md"},t=n("",17),l=[t];function c(p,r,i,h,C,d){return e(),s("div",null,l)}const b=a(o,[["render",c]]);export{y as __pageData,b as default};

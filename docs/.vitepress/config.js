@@ -4,6 +4,7 @@ export default defineConfig ({
     title: "VitePress",
     //base: '/vitePressNoteBook/',
     lastUpdated: true,
+    ignoreDeadLinks: true,
     themeConfig: {
       search: {
         provider: 'local'
