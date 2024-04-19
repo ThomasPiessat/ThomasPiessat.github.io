@@ -28,12 +28,12 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: npm
-      - run: npm install
+          node-version: 16
+          cache: yarn
+      - run: yarn install
 
       - name: Build
-        run: npm run build
+        run: yarn docs:build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
