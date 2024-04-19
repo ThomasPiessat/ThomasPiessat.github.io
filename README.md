@@ -2,22 +2,17 @@
 
 ## Project setup
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+yarn
 ```
 
 ### Compile and run dev
 ```
-npm run docs::dev
+yarn docs:dev
+```
+
+### Compiles and minifies for production
+```
+yarn docs:build
 ```
 
 ### Customize configuration
