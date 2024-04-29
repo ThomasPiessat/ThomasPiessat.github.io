@@ -11,3 +11,13 @@ next:
 ```ps1
 Shift + Alt + F
 ```
+
+## Move Line up
+```ps1
+Alt + up Arrow
+```
+
+## Copy line up/down
+```ps1
+Shift + Alt + arrow down 
+```
