@@ -9,3 +9,5 @@
 - 📄 [Using Attributes in C++](/generalProg/usingAttributes)
 - 📄 [Complex Logging and Debugging in C++](/generalProg/loggingDebugging)
 - 📄 [Atomics in C++](/generalProg/atomics) 
+- 📄 [Multithreading and Concurrency](/generalProg/threadConcurrency) 
+- 📄 [Trick for C#](/generalProg/trickCSharp)
