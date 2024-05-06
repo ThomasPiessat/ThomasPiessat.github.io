@@ -1,9 +1,9 @@
 # C++ Performance Optimization: Best Practices
 
 ## Use the Right Data Structures
-Choosing the appropriate data structures can have a massive impact on performance. Use std::vector for dynamic arrays, std::map or std::unordered_map for key-value pairs and std::set or std::unordered_set for unique values. Avoid linked lists when you need random access, as they can lead to poor cache performance.
+Choosing the appropriate data structures can have a massive impact on performance. Use ```std::vector``` for dynamic arrays, ```std::map``` or ```std::unordered_map``` for key-value pairs and ```std::set``` or ```std::unordered_set``` for unique values. Avoid linked lists when you need random access, as they can lead to poor cache performance.
 
-Example: Using std::vector for Dynamic Arrays
+Example: Using ```std::vector``` for Dynamic Arrays
 ```cpp
 #include <vector>
 
@@ -18,7 +18,7 @@ int main()
 ```
 
 ## Avoid Unnecessary Copying
-Copying objects can be expensive. Use references or move semantics (std::move) when passing and returning objects to minimize unnecessary copying. If you use const std::string& then try to change it std::string_view in some cases, it will have a better performance.
+Copying objects can be expensive. Use references or move semantics (```std::move```) when passing and returning objects to minimize unnecessary copying. If you use ```const std::string&``` then try to change it ```std::string_view``` in some cases, it will have a better performance.
 
 Example: Avoiding Unnecessary Copying
 ```cpp
@@ -52,7 +52,7 @@ std::string_view prefix(std::string_view str)
 ```
 
 ## Prefer Stack Allocation
-Allocate objects on the stack whenever possible, as stack allocation is faster than heap allocation. Use dynamic allocation (e.g., new and delete) only when the object's lifetime extends beyond the current scope.
+Allocate objects on the stack whenever possible, as stack allocation is faster than heap allocation. Use dynamic allocation (e.g., ```new``` and ```delete```) only when the object's lifetime extends beyond the current scope.
 
 Example: Stack Allocation
 ```cpp
@@ -69,7 +69,7 @@ However, it's important to note that stack allocation has limitations:
 - Risk of Stack Overflow: Excessive stack memory usage can lead to a stack overflow if the available stack space is exhausted. Heap memory doesn't have this limitation.
 
 ## Profile Your Code
-Profiling tools can help identify performance bottlenecks. Use tools like gprof (GNU Profiler) or platform-specific profilers to analyze your code's execution time and memory usage.
+Profiling tools can help identify performance bottlenecks. Use tools like ```gprof``` (GNU Profiler) or platform-specific profilers to analyze your code's execution time and memory usage.
 
 Steps:
 - Identify what areas of code are taking how much time
@@ -164,17 +164,17 @@ for (const int& num : numbers)
 ```
 
 ## Compiler Optimization Flags
-Modern C++ compilers provide optimization flags (e.g., -O2, -O3) that can significantly improve code performance. Use these flags during compilation to enable various optimization techniques.
+Modern C++ compilers provide optimization flags (e.g., ```-O2```, ```-O3```) that can significantly improve code performance. Use these flags during compilation to enable various optimization techniques.
 ```cpp
 g++ -O2 -o my_program my_program.cpp
 ```
 GCC (GNU Compiler Collection):
-- O1: Enables basic optimization. This includes optimizations such as common subexpression elimination and instruction scheduling. It's a good balance between optimization and compilation time.
-- O2: Enables more aggressive optimization, including inlining functions, loop optimizations, and better code scheduling. It provides a significant performance boost.
-- O3: Enables even more aggressive optimizations. It can lead to faster code but may increase compilation time and the size of the executable.
+- ```O1```: Enables basic optimization. This includes optimizations such as common subexpression elimination and instruction scheduling. It's a good balance between optimization and compilation time.
+- ```O2```: Enables more aggressive optimization, including inlining functions, loop optimizations, and better code scheduling. It provides a significant performance boost.
+- ```O3```: Enables even more aggressive optimizations. It can lead to faster code but may increase compilation time and the size of the executable.
 
 ## Reduce Function Calls
-Minimize function calls within tight loops. Inlining functions (e.g., using inline or compiler optimizations) can eliminate function call overhead.
+Minimize function calls within tight loops. Inlining functions (e.g., using ```inline``` or compiler optimizations) can eliminate function call overhead.
 
 Example: Inlining Functions
 ```cpp
