@@ -61,7 +61,7 @@ export default defineConfig ({
           collapsed: true,
           items: [
             { text: "Dotnet", link: "/it/dotnet" },
-            { text: "NPM", link: "/it/npm" },
+            { text: "NPM", link: "/it/npm/npm" },
             { text: "Docker", link: "/docker" },
           ],
         },
