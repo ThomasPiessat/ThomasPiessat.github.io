@@ -7,11 +7,16 @@ next:
   link: '/visualStudio/visualStudio'
 ---
 # Visual Studio Code Shortcuts
-## The code formatting is available in Visual Studio Code through the following shortcuts:
+## Code formatting
 ```ps1
 Shift + Alt + F
 ```
 
+## Opens up command palette
+```ps1
+Ctrl + Shift + P
+```
+ 
 ## Move Line up
 ```ps1
 Alt + up Arrow
