@@ -4,6 +4,7 @@
 - 📄 [Reference](/generalProg/reference)
 - 📄 [C++LanguageStandard](/generalProg/languageStandard)
 - 📄 [Pointers](/generalProg/pointers)
+- 📄 [Variable And Array Initialization](/generalProg/variable_ArrayInitialization)
 - 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
 - 📄 [Virtual Memory](/generalProg/virtualMemory)
 - 📄 [Using Attributes in C++](/generalProg/usingAttributes)
