@@ -1,5 +1,6 @@
 # GeneralProg
 
+- 📄 [Notes](/generalProg/notes)
 - 📄 [DesignPattern](/generalProg/designPattern)
 - 📄 [Reference](/generalProg/reference)
 - 📄 [C++LanguageStandard](/generalProg/languageStandard)
