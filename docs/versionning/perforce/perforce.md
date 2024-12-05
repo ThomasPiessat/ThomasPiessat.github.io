@@ -6,10 +6,10 @@ next:
   text: 'Git'
   link: '/versionning/git'
 ---
-## Perforce
+# Perforce
 
-- [Perforce Commands](/versionning/perforce/perforceCommands)
+- 📄 [Perforce Commands](/versionning/perforce/perforceCommands)
 
-- [Perforce Documentation](/versionning/perforce/perforceDoc)
+- 📄 [Perforce Documentation](/versionning/perforce/perforceDoc)
 
-- [Perforce Custom Tools](/versionning/perforce/perforceCustomTools)
+- 📄 [Perforce Custom Tools](/versionning/perforce/perforceCustomTools)
