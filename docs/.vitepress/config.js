@@ -81,8 +81,10 @@ export default defineConfig ({
           text: "Web",
           collapsed: true,
           items: [
+            { text: "Home", link: "/web/web" },
             { text: "Vue", link: "/web/vue" },
             { text: "React", link: "/web/react/react" },
+            { text: "Symfony", link: "/web/symfony/symfony" },
           ],
         },
       ],
