@@ -1,11 +1,15 @@
 # GeneralProg
 
+- 📄 [Notes](/generalProg/notes)
 - 📄 [DesignPattern](/generalProg/designPattern)
 - 📄 [Reference](/generalProg/reference)
 - 📄 [C++LanguageStandard](/generalProg/languageStandard)
 - 📄 [Pointers](/generalProg/pointers)
+- 📄 [Variable And Array Initialization](/generalProg/variable_ArrayInitialization)
 - 📄 [C++ Performance Optimization](/generalProg/performanceOptimization)
 - 📄 [Virtual Memory](/generalProg/virtualMemory)
 - 📄 [Using Attributes in C++](/generalProg/usingAttributes)
 - 📄 [Complex Logging and Debugging in C++](/generalProg/loggingDebugging)
 - 📄 [Atomics in C++](/generalProg/atomics) 
+- 📄 [Multithreading and Concurrency](/generalProg/threadConcurrency) 
+- 📄 [Trick for C#](/generalProg/trickCSharp)

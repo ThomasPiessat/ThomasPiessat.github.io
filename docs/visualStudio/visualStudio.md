@@ -6,4 +6,5 @@ next:
 # VisualStudio
 
 - 📄 [Setup Visual Studio 2022](/visualStudio/setupVisualStudio)
-- 📄 [Shortcuts](/visualStudio/visualStudioShortcuts)
+- 📄 [Visual Studio Shortcuts](/visualStudio/visualStudioShortcuts)
+- 📄 [Visual Studio Code Shortcuts](/visualStudio/visualStudioCodeShortcuts)

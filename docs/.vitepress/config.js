@@ -22,7 +22,7 @@ export default defineConfig ({
           text: "GeneralProg",
           collapsed: false,
           items: [
-            { text: "GeneralProg", link: "/generalProg/generalProg" },
+            { text: "Home", link: "/generalProg/generalProg" },
           ],
         },
         {
@@ -36,6 +36,7 @@ export default defineConfig ({
           text: "UnrealEngine",
           collapsed: false,
           items: [
+            { text: "Home", link: "/UnrealEngine/unrealengine" },
             { text: "Global", link: "/UnrealEngine/global/global" },
             { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
             { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
@@ -52,6 +53,7 @@ export default defineConfig ({
           text: "Versionning",
           collapsed: true,
           items: [
+            { text: "Home", link: "/versionning/versionning" },
             { text: "Perforce", link: "/versionning/perforce/perforce" },
             { text: "Git", link: "/versionning/git" },
           ],
@@ -60,9 +62,10 @@ export default defineConfig ({
           text: "IT",
           collapsed: true,
           items: [
+            { text: "Home", link: "/it/it" },
             { text: "Dotnet", link: "/it/dotnet" },
-            { text: "NPM", link: "/it/npm" },
-            { text: "Docker", link: "/docker" },
+            { text: "NPM", link: "/it/npm/npm" },
+            { text: "SQL", link: "/it/sql/sql" },
           ],
         },
         {
@@ -78,8 +81,10 @@ export default defineConfig ({
           text: "Web",
           collapsed: true,
           items: [
+            { text: "Home", link: "/web/web" },
             { text: "Vue", link: "/web/vue" },
             { text: "React", link: "/web/react/react" },
+            { text: "Symfony", link: "/web/symfony/symfony" },
           ],
         },
       ],

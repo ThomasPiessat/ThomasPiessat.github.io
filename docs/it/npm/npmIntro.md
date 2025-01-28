@@ -1,3 +1,8 @@
+---
+prev:
+  text: 'NPM'
+  link: '/it/npm/npm'
+---
 # Understanding NPM: Node Package Manager
 ## Introduction
 A. What is NPM?

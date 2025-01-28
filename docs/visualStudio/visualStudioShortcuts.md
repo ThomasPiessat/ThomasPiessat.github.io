@@ -2,7 +2,12 @@
 prev:
   text: 'VisualStudio'
   link: '/visualStudio/visualStudio'
+next:
+  text: 'Visual Studio Code Shortcuts'
+  link: '/visualStudio/visualStudioCodeShortcuts'
 ---
+
+# Visual Studio Shortcuts
 ## Find in the solution explorer where is the current open file
 ```ps1
 CTRL + ) + S
