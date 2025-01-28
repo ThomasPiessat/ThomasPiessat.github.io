@@ -62,6 +62,32 @@ char data = *address;
 - Pointers can be used to access and manipulate registers, allowing interaction with various peripherals such as GPIO
 - Pointers are used to work with structures and dynamic data structures like linked lists. This allows for the creation of flexible and extensible data structures, even in resource-constrained environments.
 
+## Smart Pointer:
+
+Manual memory management (`new`/`delete`) can be risky. Modern C++ introduces smart pointers to manage resources.
+
+Example: Using `std::unique_ptr`
+```cpp
+#include <iostream>
+#include <memory> // For smart pointers
+using namespace std;
+
+class Cat {
+public:
+    Cat() { cout << "Cat created!" << endl; }
+    ~Cat() { cout << "Cat destroyed!" << endl; }
+    void meow() { cout << "Meow!" << endl; }
+};
+
+int main() {
+    unique_ptr<Cat> catPtr = make_unique<Cat>(); // Creates a smart pointer
+    catPtr->meow(); // Access member function
+
+    // No need to delete; unique_ptr automatically cleans up.
+    return 0;
+}
+```
+
 ## Shared Pointer:
 
 A `std::shared_ptr` is a smart pointer that retains shared ownership of an object through a pointer. Multiple `shared_ptr` instances can share ownership of the same object. The object is deleted when the last `shared_ptr` pointing to it is destroyed or reset.
