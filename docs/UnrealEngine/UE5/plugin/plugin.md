@@ -6,4 +6,4 @@ prev:
 # Plugin
 
 - 📄 [Build Plugin](/UnrealEngine/UE5/plugin/buildPlugin)
-- 📄 [Plugin Link](/UnrealEngine/UE5/plugin/linkPlugin)
+- 📄 [Link Plugin](/UnrealEngine/UE5/plugin/linkPlugin)
