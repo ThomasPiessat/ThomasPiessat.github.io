@@ -1,7 +1,7 @@
 ---
 prev:
-  text: 'UE5'
-  link: '/UnrealEngine/UE5/UE5'
+  text: 'Plugin'
+  link: '/UnrealEngine/UE5/Plugin/Plugin'
 ---
 ## Build UE5 plugin
 

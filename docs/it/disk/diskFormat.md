@@ -1,7 +1,7 @@
 ---
 prev:
-  text: 'IT'
-  link: './it'
+  text: 'Disk'
+  link: './disk'
 ---
 # Disk Format
 
