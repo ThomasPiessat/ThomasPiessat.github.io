@@ -11,7 +11,7 @@ hero:
     #   link: /generalProg/generalProg
     # - theme: alt
     #   text: 📌 Uneral Engine
-    #   link: /UnrealEngine/unrealengine
+    #   link: /UnrealEngine/unrealEngine
     # - theme: alt
     #   text: 📌 Unity
     #   link: /unity/Unity
@@ -28,7 +28,7 @@ features:
     details: Usefull commands for Git
     link: /versionning/git
   - icon: 🎮
-    title: Undreal Engine
+    title: Unreal Engine
     details: Documention/Tips Unreal
     link: /UnrealEngine/unrealEngine
   - icon: 📝
