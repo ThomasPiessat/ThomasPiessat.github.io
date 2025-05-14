@@ -39,7 +39,7 @@ export default defineConfig({
         text: "UnrealEngine",
         collapsed: false,
         items: [
-          { text: "Home", link: "/UnrealEngine/unrealengine" },
+          { text: "Home", link: "/UnrealEngine/unrealEngine" },
           { text: "Global", link: "/UnrealEngine/global/global" },
           { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
           { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
