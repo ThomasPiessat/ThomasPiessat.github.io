@@ -1,9 +1,9 @@
 ---
 prev:
   text: 'Plugin'
-  link: '/UnrealEngine/UE5/Plugin/Plugin'
+  link: '/UnrealEngine/UE5/plugin/plugin'
 ---
-## Build UE5 plugin
+# Build UE5 plugin
 
 ```sh
 "D:\UEngines\UnrealEngine\Engine\Build\BatchFiles\RunUAT.bat" BuildPlugin -Plugin="D:\Plugins\ProjectForPlugin\Plugins\QORPOUEFRM\QORPOUEFRM.uplugin" -Configuration=DebugGame+Development+Shipping -EditorConfig=DebugGameEditor+DevelopmentEditor -TargetPlatforms=Win64 -Package="D:\Plugins\Packaged\ver3\QORPOUEFRM" -Rocket -VS2022

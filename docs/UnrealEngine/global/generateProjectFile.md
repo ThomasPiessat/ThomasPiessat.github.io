@@ -8,7 +8,31 @@ Update the project path and the engine path
 
 ```sh
 @echo off
-SET ProjectPath=D:\UE5_Projects\Sandbox
+SET DEFAULT_ROOT=C:
+SET CURRENT=%~dp0
+
+SET "UNREAL_FOLDER="
+SET "UNREAL_VERSION=UE_5.5"
+
+REM Searching Unreal Engine Folders
+if not defined UNREAL_FOLDER (
+    echo Unreal Engine was not found 
+
+    if exist "%DEFAULT_ROOT%\Program Files\Epic Games\%UNREAL_VERSION%" (
+    set UNREAL_FOLDER=%DEFAULT_ROOT%\Program Files\Epic Games\%UNREAL_VERSION%
+    )
+
+    if not defined UNREAL_FOLDER (
+        echo Unreal Engine was not found im %DEFAULT_ROOT%\Program Files.
+        pause
+        exit 1
+    ) else (
+        echo Unreal Engine found
+    )
+) else (
+    echo Unreal Engine found
+    )
+) 
 
 REM Clean .vs folder
 if exist "%projectPath%\.vs" (

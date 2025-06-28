@@ -12,7 +12,7 @@ const { Layout } = DefaultTheme
           <span>Thomas Piessat - Software Engineer</span>
         </h1>
         <p class="description">
-          Working for Black Shamrock <i>- a Virtuos Studio</i> 
+          Working for LVCIM 
         </p>
         <nav class="button">
         <div class="button-container">
