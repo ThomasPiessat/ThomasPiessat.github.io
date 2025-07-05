@@ -1,3 +1,8 @@
+---
+prev:
+  text: 'Debug'
+  link: '/UnrealEngine/global/debug/debug'
+---
 # Print Debug in UE4
 ```cpp
 // https://wiki.unrealengine.com/Logs,_Printing_Messages_To_Yourself_During_Runtime#Related_Tutorial
