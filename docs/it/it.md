@@ -1,5 +1,6 @@
 # IT/DevOps
 
+- 📁 [Windows](/it/windows/windows)
 - 📁 [NPM](/it/npm/npm)
 - 📁 [SQL](/it/sql/sql)
 - 📁 [Tool](/it/tool/tool)
