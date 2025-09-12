@@ -1,4 +1,9 @@
-# Profiling
+---
+prev:
+  text: 'Profiling'
+  link: '/UnrealEngine/global/profiling/profiling'
+---
+# Profiling Command
 ## Understand the engine debug options
 - If capturing GPU: enable detailed draw call name events etc
 ```sh
