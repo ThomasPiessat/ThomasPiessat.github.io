@@ -16,6 +16,13 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
+    lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'short'
+      }
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: "About", link: "../AboutMe" },
