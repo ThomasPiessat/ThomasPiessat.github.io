@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { createRequire } from 'module'
+const require = createRequire(import.meta.url)
+const vitepressPkg = require('vitepress/package.json')
+const vuePkg = require('vue/package.json')
 
 export default defineConfig({
   lang: 'en-US',
@@ -95,6 +99,12 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present Thomas Piessat'
     },
-  }
+  },
+  vite: {
+    define: {
+      __VITEPRESS_VERSION__: JSON.stringify(vitepressPkg.version),
+      __VUE_VERSION__: JSON.stringify(vuePkg.version)
+    }
+  },
 });
 

@@ -12,6 +12,11 @@ https://vitepress.dev/
 
 VitePress is a simple and performant static site generator built on top of Vite for creating docs in a matter of minutes. It is powered by Vuejs, and Vite with built in customizable components. VitePress powers some popular documentation sites like Vuejs, Vitest, faker.js, and Vite itself.
 
+Updade VitePress project
+```sh
+pnpm add -D vitepress@latest
+```
+
 ## Vue
 
 https://vuejs.org/

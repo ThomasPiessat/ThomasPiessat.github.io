@@ -1,5 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
+import Versions from './components/Versions.vue'
 
 const { Layout } = DefaultTheme
 </script>
@@ -14,6 +15,10 @@ const { Layout } = DefaultTheme
         <p class="description">
           Working for LVCIM 
         </p>
+        <ClientOnly>
+          <Versions />
+        </ClientOnly>
+        <div style="height: 20px;"></div>
         <nav class="button">
         <div class="button-container">
           <ul class="button-menu">
