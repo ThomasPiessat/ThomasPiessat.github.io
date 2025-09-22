@@ -26,7 +26,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: "About", link: "/AboutMe" },
+      { text: 'About', link: '/AboutMe' },
       { text: 'Portfolio', link: '/portfolio/' }
     ],
     socialLinks: [
@@ -38,24 +38,24 @@ export default defineConfig({
         text: "GeneralProg",
         collapsed: false,
         items: [
-          { text: "Home", link: '/generalProg/generalProg' },
+          { text: 'Home', link: '/generalProg/generalProg' },
         ],
       },
       {
         text: "VS",
         collapsed: false,
         items: [
-          { text: "Visual Studio", link: "/visualStudio/visualStudio" },
+          { text: 'Visual Studio', link: '/visualStudio/visualStudio' },
         ],
       },
       {
         text: "UnrealEngine",
         collapsed: false,
         items: [
-          { text: "Home", link: "/UnrealEngine/unrealengine" },
-          { text: "Global", link: "/UnrealEngine/global/global" },
-          { text: "UE4", link: "/UnrealEngine/UE4/UE4" },
-          { text: "UE5", link: "/UnrealEngine/UE5/UE5" },
+          { text: 'Home', link: '/UnrealEngine/unrealengine'},
+          { text: 'Global', link: '/UnrealEngine/global/global'},
+          { text: 'UE4', link: '/UnrealEngine/UE4/UE4'},
+          { text: 'UE5', link: '/UnrealEngine/UE5/UE5'},
         ],
       },
       {
