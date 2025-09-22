@@ -5,6 +5,6 @@ prev:
 ---
 # Profiling
 
-- 📄 [Command](/UnrealEngine/global/profiling/command)
+- 📄 [Command](/unrealEngine/global/profiling/command)
 
-- 📄 [Memory Profiling](/UnrealEngine/global/profiling/memoryProfiling)
+- 📄 [Memory Profiling](/unrealEngine/global/profiling/memoryProfiling)
