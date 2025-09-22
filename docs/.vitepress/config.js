@@ -5,6 +5,7 @@ const vitepressPkg = require('vitepress/package.json')
 const vuePkg = require('vue/package.json')
 
 export default defineConfig({
+  base: '/portfolio/',
   lang: 'en-US',
   title: 'NoteBook',
   description: 'Vite & Vue powered static site generator.',
@@ -25,7 +26,8 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: "About", link: "../AboutMe" },
+      { text: "About", link: "/AboutMe" },
+      { text: 'Portfolio', link: '/portfolio/' }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/ThomasPiessat" },
@@ -36,7 +38,7 @@ export default defineConfig({
         text: "GeneralProg",
         collapsed: false,
         items: [
-          { text: "Home", link: "/generalProg/generalProg" },
+          { text: "Home", link: '/generalProg/generalProg' },
         ],
       },
       {
