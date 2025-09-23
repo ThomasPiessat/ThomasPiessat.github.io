@@ -26,7 +26,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/AboutMe/' },
-      { text: 'Portfolio', link: '/Portfolio/' }
+      { text: 'Portfolio', link: 'https://thomaspiessat.github.io/Portfolio/' }
     ],
     socialLinks: [
       { icon: "github", link: "https://github.com/ThomasPiessat" },
