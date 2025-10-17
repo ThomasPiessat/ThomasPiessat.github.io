@@ -1,6 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme'
-import Versions from './components/Versions.vue'
+import Versions from './Versions.vue'
 
 const { Layout } = DefaultTheme
 </script>
