@@ -7,7 +7,7 @@ const vuePkg = require('vue/package.json')
 export default defineConfig({
   lang: 'en-US',
   title: 'NoteBook',
-  description: 'Vite & Vue powered static site generator.',
+  description: "Thomas Piessat's personal notebook of software engineering, game dev, and IT notes.",
   lastUpdated: true,
   ignoreDeadLinks: true,
   themeConfig: {
@@ -25,7 +25,7 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'About', link: '/AboutMe/' },
+      { text: 'About', link: '/aboutMe' },
       { text: 'Portfolio', link: 'https://thomaspiessat.github.io/Portfolio/' }
     ],
     socialLinks: [
@@ -83,15 +83,6 @@ export default defineConfig({
           { text: "SQL", link: "/it/sql/sql" },
           { text: 'Linux', link: '/it/linux/linux' },
           { text: 'Docker', link: '/it/docker/docker' },
-        ],
-      },
-      {
-        text: "Domotic",
-        collapsed: true,
-        items: [
-          { text: "ESP32", link: "/esp" },
-          { text: "Pi4", link: "/pi4" },
-          { text: "WLED", link: "/wled" },
         ],
       },
       {
