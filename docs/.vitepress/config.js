@@ -81,6 +81,8 @@ export default defineConfig({
           { text: "Dotnet", link: "/it/dotnet" },
           { text: "NPM", link: "/it/npm/npm" },
           { text: "SQL", link: "/it/sql/sql" },
+          { text: 'Linux', link: '/it/linux/linux' },
+          { text: 'Docker', link: '/it/docker/docker' },
         ],
       },
       {
